@@ -1,0 +1,93 @@
+﻿<repository
+name="aaaRepository"
+id="8e36c7ce-5662-4fa4-8c8e-ccee5f61758b"
+rxversion="6.0">
+	<codegen
+	classname="aaaRepository"
+	namespace="aaa"/>
+	<rootfolder
+	name="Root"
+	id="5ae4a7da-8dce-4cee-b9d1-e60946e39d2a"
+	searchtimeout="0ms"
+	capname="unknown"
+	isrooted="True"
+	usecache="True">
+		<appfolder
+		name="Explorer"
+		id="5440dec8-b077-44a0-b049-5382c46e357e"
+		searchtimeout="30000ms"
+		capname="desktop"
+		refpath="/desktop[@processname='explorer']"
+		addcaps="desktop,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="GitClone"
+			id="c8c34b0e-541f-4a47-80f9-4a22e869d2ac"
+			searchtimeout="30000ms"
+			capname="listitem"
+			refpath="/desktop[@processname='explorer']/container/list/listitem[@text='gitClone']"
+			addcaps="listitem,nativeitem,checkable"
+			refimgid="f648f0df-9ed9-40cc-be8c-b1d1310ff8c4">
+				/desktop[@processname='explorer']/?/?/list[@controlid='1']/listitem[@text='gitClone']
+			</item>
+			<basepath>
+				/desktop[@processname='explorer']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACBElEQVQ4T4WSUWgScRzHHfQcLPZcL0EQFNtTQU9FRUHSXhaTRbBA
+ixBRiIhAMIz2JERgT0bI1ALZy6BCyY0RMtuZeqPi0hlUE0JcyZXV7S6/u9/vdnezC/rDB/7c///5
+8L//net/43TmG/6m2Wxie9kYC8I6Xjc7eLL0wbH50aqMWVHm+Y2ChiMz7xGPx+3IgduStZnmmUoX
+i1IX6GsOaA8FQqEQRFG0A/kNsNzXflhQ5Pi8yhy7Vbae/zPAstphRmd/WWJvE2jJMAL6GsnEg/17
+kcvl7EDtUwv9zS8MBWiY8pp+OlMst4C3F/dBvnsYubFhFItFcOCP8tGCAor+yiQTJL5aB8sZ0bhE
+kj0eD5LJ5Hbg95oFBUz5/p1plu+97FmnGLpShtvtRjgctk/Q2XgD7aeBGRjZPcSYIkHrFPB6vYN3
+UFit6os1hgJ03J3QJZrrFHB8hReiALW3wlBg+bMtmpBM/4gjsGfqGQq1ZWjfi8xOSf363ILl8aeM
+I0CU3y1ClRegdnWB0KXRm0sDHDpxFecnLiMWi6HRaNiBXWfnMHzusUM4euoSJqem4ff7EQwGEYlE
+kEqlUKlUIMuyEZhJreDghYcYO3MdJ8evwefzIRAI8DGj0Siy2SxKpRKq1SokSUK73YaiKIZsjnw+
+j0QigXQ6DZoLgsDvWK/XBzc6hsu1BRMfpP7Bj/TsAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		name="GitClone"
+		id="3f1d1afe-e772-499f-9062-2bd3538a56d0"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='gitClone']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="Fermer"
+			id="de48e2ba-0e3f-45de-9432-31d6448aced5"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='gitClone']/titlebar/button[@accessiblename='Fermer']"
+			addcaps="button,accessible"
+			refimgid="2c792f13-76f8-481f-b383-bd433f349ba8">
+				/form[@title='gitClone']/?/?/button[@accessiblename='Fermer']
+			</item>
+			<basepath>
+				/form[@title='gitClone']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJgSURBVDhPbdLdT1JxHMdxt/6Mrvov6jqtWdM1
+59gSRcpKXaXMIrWNpdVKarTWRa25ddN0ZS7EGWoRD4LIc6gIAnIEAUF3QnkeCH06/kDopN/te3XO
+630eaw4nE5LIk+GXhVRIgoRfjDg1grhPjD3vM8TcT0C7hrC7JkJ0dYCKLPcLCToaYOJUOiLBQUaG
+4sEOUrvv8XvzOTasg8inFSjmFyqbS8kRtAqpMq0OCWRnyAIFsn5zN9b0j5CJfUUhp2KO/UA+NYuQ
+tQ9lVp1/A6UI4DPcwLJ6AOGVYQJzCRmye5PYsghOCGz/HyjAo2uHXXkfwV8iAtP0GJI7HxAw9RwP
+JMMvKjiXnsKfYgoudQtsih4ELA8ITITfYX/rNTaNt48HEsGRCs7GJ1DIR+H4yYF1vgt+o4DAGCUG
+7XnMPEIvNhY735Zpafb9Tys4RX9EJq7HyvcmmOXXQOm7Cdx1PWQ+4z1s2+8ygZvsu4hRwxW8HxkF
+HXgD+2wjjNNcbCx0VGDIegs0TcOr7WAHaK+IhaNeMWwzl2CQNsOjaiUwaOIjsMQlAc/CdXZgZ32Q
+hUOOIVimL0I/2Qi3gkOgf5GDTW0TCbg1fHYg4hCysN/WD9NUHXSf67HOvItDSGkaybbN+7Cu5rED
+oWUBC/uMvTBJa6H7VAfXXAkebf3YKlyqNnYgYLvDwh5dJwlox88fC/g0V+BUtHjLtDTUUqfCrW2H
+U90Gp4rHLJ8ENOOX4ZjjMD8Vj1zVqWxl8FWvU8ntK9PquBXNp+3yhg6z7ILMKK1Nfhs9Z/jy6myX
+XdZwpnzKCVNT8xdABXLpcMcU7QAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath/>
+	</rootfolder>
+	<variables/>
+</repository>
